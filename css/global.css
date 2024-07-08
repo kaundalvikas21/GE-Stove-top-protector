@@ -1,0 +1,127 @@
+/*---------- global_custom_css_ start ----------*/
+*,
+*::after,
+**::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary_heading_blue_clr: #1F71C0;
+    --secondary_heading_black_clr: #121212;
+    --heading_txt_brown_clr: #231F1F;
+    --light_grey_clr: #363535;
+    --sub_heading_grey_clr: #3E3C3C;
+    --dark_charcoal_clr: #333333;
+    --white_body_clr: #FFFFFF;
+    --white_smoke_clr: #F4F4F4;
+    --bg_white_smoke_clr: #F9F9F9;
+    --rubik_font_family: "Rubik", sans-serif;
+    --montserrat_font_family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: var(--white_body_clr);
+    font-family: var(--montserrat_font_family);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.w_auto {
+    width: auto;
+}
+
+img,
+picture {
+    width: 100%;
+}
+
+span,
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container_1200 {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 1rem 1rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+.flex_row {
+    display: flex;
+}
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid_row {
+    display: grid;
+}
+
+section {
+    margin-bottom: 6rem;
+}
+
+main {
+    margin-top: 8rem;
+}
+
+.global_btn {
+    font-family: var(--big_shoulders_txt);
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.blue_btn {
+    background-color: var(--primary_heading_blue_clr);
+    color: var(--bg_white_smoke_clr);
+    border: none;
+    padding: 15px 25px;
+    width: max-content;
+}
+
+.blue_btn:hover {
+    background-color: var(--bg_white_smoke_clr);
+    color: var(--primary_heading_blue_clr);
+    border: 1px solid var(--primary_heading_blue_clr);
+}
+
+.white_btn {
+    color: var(--primary_heading_blue_clr);
+    width: max-content;
+    padding: 15px 25px;
+    background-color: var(--bg_white_smoke_clr);
+    border: 1px solid var(--primary_heading_blue_clr);
+}
+
+.white_btn:hover {
+    color: var(--primary_heading_clr);
+    border: 1px solid var(--primary_heading_clr);
+}
