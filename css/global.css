@@ -550,42 +550,44 @@ footer > .copyright_col p {
 
 
 
-
-
-
 /* latest_post_component_css start */
 .r_col_container {
     max-width: 300px;
     width: 100%;
     padding: 20px 0 20px 20px;
-    background-color: var(--background_clr);
     border-left: 1px dotted #000000;
     gap: 1rem;
   }
   
-  .r_col_container h3 {
-    color: var(--primary_heading_clr);
+  .r_col_container> span {
+    color: var(--heading_txt_brown_clr);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dotted #000000;
+    font-family: var(--rubik_font_family);
   }
   .r_col_container .post_1 > a {
     font-size: 1rem;
-    font-weight: 600;
-    color: var(--sub_heading_clr);
+    font-weight: 500;
+    color: #121212;
     padding-bottom: 0.5rem;
+    font-family: var(--rubik_font_family);
   }
   .r_col_container .profile_info .user a.grey_txt {
-    color: var(--sub_heading_clr);
+    color: #121212;
     font-weight: 300;
     font-size: 0.875rem;
   }
   .r_col_container .profile_info .user a.grey_txt:hover {
-    color: var(--light_green_color);
+    color: var(--primary_heading_blue_clr);
   }
   .r_col_container .post_1 {
     border-bottom: 1px solid var(--primary_heading_blue_clr);
     padding-bottom: 0.5rem;
   }
   .r_col_container a:hover {
-    color: var(--light_green_color);
+    color: var(--primary_heading_blue_clr);
   }
   .r_col_container .post_1:last-of-type {
     border-bottom: none;
@@ -594,8 +596,10 @@ footer > .copyright_col p {
     align-items: center;
     gap: 0.3rem;
   }
-  .r_col_container .post_1 .profile_info .date_info > span{
+  .r_col_container .post_1 .profile_info .date_info  span{
     font-size: .75rem;
+    color: #363535;
+    font-weight: 400;
   }
 
   .r_col_container .post_1 .profile_info .date_info::before {
@@ -617,10 +621,12 @@ footer > .copyright_col p {
 .global_social_wrapper {
     gap: 4rem !important;
   }
-  .global_social_wrapper .col_1 h3,
-  .r_col_container h3 {
+  .global_social_wrapper .col_1 span {
+    font-size: 1.5rem;
+    font-weight: 600;
     padding-bottom: 0.5rem;
     border-bottom: 1px dotted #000000;
+    font-family: var(--rubik_font_family);
   }
   .global_social_wrapper .social_links {
     margin-top: 1rem;
@@ -680,9 +686,12 @@ footer > .copyright_col p {
   /* social_links_component_css end */
   
   /* newsletter_css_start */
-  .r_col_wrapper .col_2 h3 {
+  .r_col_wrapper .col_2 span {
+    font-size: 1.5rem;
+    font-weight: 600;
     padding-bottom: 0.5rem;
     border-bottom: 1px dotted #000000;
+    font-family: var(--rubik_font_family);
   }
   .r_col_wrapper .col_2 .inner_content {
     margin-top: 1rem;
@@ -692,20 +701,23 @@ footer > .copyright_col p {
   .r_col_wrapper .col_2 input {
     border: 1px solid #999999;
     outline: none;
-    color: var(--sub_heading_clr);
+    color: #999999;
     height: 2.75rem;
     padding: 1rem 0.5rem;
   }
   
   .r_col_wrapper .col_2 button {
     background-color: var(--primary_heading_blue_clr);
-    color: var(--bg_white_smoke_clr);
-    height: 2.75rem;
+    color: var(--white_body_clr);
+   padding: 15px 35px!important;
     border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--rubik_font_family);
   }
   
   .r_col_wrapper .col_2 button:hover {
-    background-color: var(--white_smoke_clr);
+    background-color: var(--bg_white_smoke_clr);
     color: var(--primary_heading_blue_clr);
     border: 1px solid var(--primary_heading_blue_clr);
   }
