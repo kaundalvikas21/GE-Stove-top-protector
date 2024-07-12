@@ -520,79 +520,10 @@ header .nav_bar_wrapper ul li a:hover {
 .global_subscribe_update form>button {
   border: 1px solid var(--white_body_clr);
 }
-
 /* global_component (global_subscribe_update) end */
 
-/*-------- global_faq_sec start --------*/
-.faq_sec {
-  background-color: var(--bg_white_smoke_clr);
-}
 
-.faq_sec .faq_container {
-  align-items: center;
-  gap: 2rem;
-  padding: 2rem 0 0 0;
-}
-
-.faq_sec .inner_faq_accordion_wrapper {
-  gap: 1rem;
-  max-width: 690px;
-  width: 100%;
-  align-items: center;
-  margin-inline: auto;
-  padding-bottom: 3rem;
-}
-
-.faq_sec .accordion_card {
-  background-color: var(--white_body_clr);
-  border-radius: 2px;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 1rem 1rem;
-  cursor: pointer;
-  width: 100%;
-}
-
-.faq_sec .inner_content {
-  width: 90%;
-}
-
-.faq_sec .inner_content span {
-  color: var(--secondary_heading_black_clr);
-  font-size: 1rem;
-  font-weight: 500;
-  font-family: var(--rubik_font_family);
-}
-
-.faq_sec .inner_content .faq_content p {
-  color: var(--sub_heading_grey_clr);
-  font-weight: 400;
-}
-
-.faq_sec .accordion_card .faq_content {
-  max-height: 0;
-  overflow: hidden;
-  padding-top: 0rem;
-  transition: max-height 0.4s ease, padding 0.3s ease;
-}
-
-.faq_sec .accordion_card.active .faq_content {
-  max-height: 1000px;
-  padding-top: 1rem;
-}
-
-.faq_sec .accordion_card .cross_x {
-  transform: rotate(0deg);
-  transition: transform 0.3s ease-in-out;
-}
-
-.faq_sec .accordion_card.active .cross_x {
-  transform: rotate(45deg);
-}
-
-/*-------- global_faq_sec end --------*/
-
-/* global_component (global_recomm_prodct_reviews) index_section_7 start */
+/*---- global_recomm_prodct_reviews_start ----*/
 .global_recomm_prodct_reviews .recomm_prodct_container {
   gap: 2.5rem;
 }
@@ -746,7 +677,7 @@ border: 1px solid var(--primary_heading_blue_clr);
 .global_recomm_prodct_reviews .accordion_card {
   width: 100%;
   height: fit-content;
-  padding: .5rem 0 0 .5rem;
+  padding: .5rem 0 0 .5rem!important;
 }
 
 .global_recomm_prodct_reviews .accordion_card hr {
@@ -787,7 +718,76 @@ border: 1px solid var(--primary_heading_blue_clr);
 .global_recomm_prodct_reviews .accordion_card.active .rotate_180 {
   transform: rotate(180deg);
 }
+/*---- global_recomm_prodct_reviews_end ----*/
 
+
+/*-------- global_faq_sec start --------*/
+.faq_sec {
+  background-color: var(--bg_white_smoke_clr);
+}
+
+.faq_sec .faq_container {
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0 0 0;
+}
+
+.faq_sec .inner_faq_accordion_wrapper {
+  gap: 1rem;
+  max-width: 690px;
+  width: 100%;
+  align-items: center;
+  margin-inline: auto;
+  padding-bottom: 3rem;
+}
+
+.faq_sec .accordion_card {
+  background-color: var(--white_body_clr);
+  border-radius: 2px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.faq_sec .inner_content {
+  width: 90%;
+}
+
+.faq_sec .inner_content span {
+  color: var(--secondary_heading_black_clr);
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: var(--rubik_font_family);
+}
+
+.faq_sec .inner_content .faq_content p {
+  color: var(--sub_heading_grey_clr);
+  font-weight: 400;
+}
+
+.faq_sec .accordion_card .faq_content {
+  max-height: 0;
+  overflow: hidden;
+  padding-top: 0rem;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+}
+
+.faq_sec .accordion_card.active .faq_content {
+  max-height: 1000px;
+  padding-top: 1rem;
+}
+
+.faq_sec .accordion_card .cross_x {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.faq_sec .accordion_card.active .cross_x {
+  transform: rotate(45deg);
+}
+/*-------- global_faq_sec end --------*/
 
 
 /*------------ footer css -----------*/
