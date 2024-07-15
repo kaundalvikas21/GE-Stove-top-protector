@@ -168,6 +168,34 @@ main {
   padding: 0.5rem;
 }
 
+
+/* breadcrumbs start css */
+.breadcrumb_container {
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.breadcrumb_container .breadcrumb {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.breadcrumb_container .breadcrumb .breadcrumb-item:nth-child(1) a {
+  color: #3E3232;
+  font-size: 0.938rem;
+  font-weight: 400;
+}
+
+.breadcrumb_container .breadcrumb .breadcrumb-item:nth-child(3) a {
+  color: #3E323280;
+  font-size: 0.938rem;
+  font-weight: 400;
+}
+
 /* global_heading_bar_end */
 
 /*----------------- global_css_end -----------------*/
@@ -1167,8 +1195,6 @@ footer>.copyright_col p {
 .r_col_container {
   max-width: 300px;
   width: 100%;
-  padding: 20px 0 20px 20px;
-  border-left: 1px dotted #000000;
   gap: 1rem;
 }
 
@@ -1179,6 +1205,7 @@ footer>.copyright_col p {
   padding-bottom: 0.5rem;
   border-bottom: 1px dotted #000000;
   font-family: var(--rubik_font_family);
+  margin-bottom: .75rem;
 }
 
 .r_col_container .post_1>a {
@@ -1191,7 +1218,7 @@ footer>.copyright_col p {
 
 .r_col_container .profile_info .user a.grey_txt {
   color: #121212;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 0.875rem;
 }
 
@@ -1242,6 +1269,19 @@ footer>.copyright_col p {
 /* social_links_component_css start */
 .global_social_wrapper {
   gap: 4rem !important;
+  position: relative;
+  padding-left: clamp(20px, 5vw, 50px);
+}
+
+.global_social_wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 1px;
+  background-color: transparent;
+  border-left: 1px dotted #000000;
 }
 
 .global_social_wrapper .col_1 {
