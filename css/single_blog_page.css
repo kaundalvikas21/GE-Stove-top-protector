@@ -1,5 +1,7 @@
 /*----- single_blg_pg_sec_1 -----*/
-
+.single_blg_pg_sec_1 .single_blg_pg_sec_1_container{
+    justify-content: space-between;
+}
 .single_blg_pg_sec_1 .l_col_container {
     max-width: 790px;
     width: 100%;
@@ -254,4 +256,76 @@
     outline: none;
     border: none;
     background-color: var(--white_smoke_clr);
+}
+/*-------- ryt_col_container --------*/
+/* links_col_wrapper */
+.single_blg_pg_sec_1 .r_col_wrapper .links_col_wrapper{
+max-width: 285px;
+width: 100%;
+justify-content: space-between;
+gap: .2rem;
+padding-bottom: 1.8rem;
+border-bottom: 1px dotted #000000;
+}
+.single_blg_pg_sec_1 .r_col_wrapper .links_1_wrap{
+    background-color: var(--white_smoke_clr);
+    padding: 10px 13px;
+    gap: 5px;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+.single_blg_pg_sec_1 .r_col_wrapper .links_1_wrap img{
+    width: 16px;
+    height: 16px;
+}
+.single_blg_pg_sec_1 .r_col_wrapper .links_1_wrap span{
+    font-size: .75rem;
+    font-weight: 400;
+    font-family: var(--rubik_font_family);
+    color: var(--sub_heading_grey_clr);
+}
+
+/* author_col_wrapper */
+.single_blg_pg_sec_1 .r_col_wrapper .author_outer_wrapper{
+    padding-bottom: 1.8rem;
+    border-bottom: 1px dotted #000000;
+}
+.single_blg_pg_sec_1 .r_col_wrapper .author_col_wrapper {
+    background-color: var(--white_smoke_clr);
+    padding: 15px 21px;
+    justify-content: space-between;
+}
+.single_blg_pg_sec_1 .r_col_wrapper .author_col_wrapper .lft_img a{
+    display: flex;
+    align-items: center;
+}
+.single_blg_pg_sec_1 .r_col_wrapper .author_col_wrapper .lft_img a>img{
+    width: 50px;
+    height: 50px;
+}
+.single_blg_pg_sec_1 .r_col_wrapper .author_col_wrapper .name_info_wrap{
+    justify-content: space-between;
+}
+.single_blg_pg_sec_1 .r_col_wrapper .author_col_wrapper .name_info_wrap >a{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--rubik_font_family);
+    color: var(--heading_txt_brown_clr);
+}
+.single_blg_pg_sec_1 .r_col_wrapper .author_col_wrapper .name_info_wrap .inner_social_links{
+    gap: .75rem;
+}
+.single_blg_pg_sec_1 .r_col_wrapper .author_col_wrapper .name_info_wrap .inner_social_links >a{
+    display: flex;
+    align-items: center;
+}
+.single_blg_pg_sec_1 .r_col_wrapper .author_col_wrapper .name_info_wrap .inner_social_links >a img{
+    width: 18px;
+    height: 18px;
+}
+.single_blg_pg_sec_1 .r_col_wrapper .author_col_wrapper .posts_count{
+color: var(--sub_heading_grey_clr);
+font-size: .75rem;
+align-items: center;
+
 }

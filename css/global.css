@@ -1193,7 +1193,7 @@ footer>.copyright_col p {
 
 /* latest_post_component_css start */
 .r_col_container {
-  max-width: 300px;
+  max-width: 285px;
   width: 100%;
   gap: 1rem;
 }
@@ -1202,7 +1202,7 @@ footer>.copyright_col p {
   color: var(--heading_txt_brown_clr);
   font-size: 1.5rem;
   font-weight: 600;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
   border-bottom: 1px dotted #000000;
   font-family: var(--rubik_font_family);
   margin-bottom: .75rem;
@@ -1268,9 +1268,10 @@ footer>.copyright_col p {
 
 /* social_links_component_css start */
 .global_social_wrapper {
-  gap: 4rem !important;
+  gap: 3rem !important;
   position: relative;
   padding-left: clamp(20px, 5vw, 50px);
+  height: fit-content;
 }
 
 .global_social_wrapper::before {
@@ -1292,7 +1293,7 @@ footer>.copyright_col p {
 .global_social_wrapper .col_1 span {
   font-size: 1.5rem;
   font-weight: 600;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
   border-bottom: 1px dotted #000000;
   font-family: var(--rubik_font_family);
 }
@@ -1370,7 +1371,7 @@ footer>.copyright_col p {
 .r_col_wrapper .col_2 span {
   font-size: 1.5rem;
   font-weight: 600;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
   border-bottom: 1px dotted #000000;
   font-family: var(--rubik_font_family);
 }
