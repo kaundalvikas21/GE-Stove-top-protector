@@ -804,7 +804,7 @@ border: 1px solid var(--primary_heading_blue_clr);
 
 .faq_sec .accordion_card.active .faq_content {
   max-height: 1000px;
-  padding-top: 1rem;
+  padding-top: .5rem;
 }
 
 .faq_sec .accordion_card .cross_x {
@@ -1001,12 +1001,12 @@ footer>.copyright_col p {
     display: block;
     max-width: 240px;
     width: 100%;
-    height: 100vh;
     min-height: 100vh;
+    height: 100vh;
     position: fixed;
     top: 0;
     right: 0;
-    background-color: var(--solid_white_clr);
+    background-color: var(--white_body_clr);
     padding: 2rem 2rem;
     transform: translateX(100%);
     transition: transform 0.3s ease-out;
@@ -1061,6 +1061,7 @@ footer>.copyright_col p {
   .overlay {
     position: fixed;
     min-height: 100vh;
+    height: 100vh;
     background-color: rgba(48, 48, 48, 0.192);
     top: 0;
     left: 0;
