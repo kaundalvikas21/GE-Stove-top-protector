@@ -1046,7 +1046,7 @@ header .nav_bar_wrapper ul li a:hover {
   width: 100%;
 }
 
-.faq_sec .inner_content {
+.faq_sec > .inner_content {
   width: 90%;
 }
 

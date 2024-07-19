@@ -203,3 +203,35 @@
 }
 /* author_pg_sec_4_end */
 
+
+/*--------------- Mobile_screen_css start ---------------*/
+@media screen and (max-width: 480px) {
+  .author_pg_sec_1 .author_row_wrap {
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .5rem;
+}
+.author_pg_sec_1 .author_row_wrap .inner_col_1 {
+  align-items: center;
+  order: 1;
+}
+
+.author_pg_sec_1 .author_row_wrap .inner_col_2_wrap {
+    order: 2;
+    margin-top: 1rem;
+    gap: .5rem;
+}
+
+.author_pg_sec_1 .author_row_wrap >a {
+  order: 1;
+}
+.author_pg_sec_4 .faq_sec{
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.author_pg_sec_4 .inner_faq_accordion_wrapper{
+  max-width: 330px;
+  width: 100%;
+}
+}
